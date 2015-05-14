@@ -1,0 +1,102 @@
+body {
+  background: #e5e5e5;
+  font-family: arial;
+  font-size: 14px;
+  width: 100%;
+}
+div {
+  border: 1px dotted #808080;
+}
+.hidde {
+  display: none;
+}
+.header {
+  top: 0px;
+  background-color: #22b89a;
+  border-bottom: 2px solid #fb8521;
+  width: 100%;
+  height: 3em;
+  color: #fff;
+  overflow: hidden;
+  position: fixed;
+}
+.header .photo_user {
+  height: 2em;
+  width: 2em;
+  background: url("../img/5806367.jpg");
+  background-size: 2em 2em;
+  background-repeat: no-repeat;
+  float: right;
+  margin: 0.43em 1em;
+  border: 2px solid #b3c833;
+  border-radius: 0.5em;
+}
+.header .user {
+  float: left;
+  font-family: "Times New Roman";
+  font-size: 1.3em;
+}
+.header .user p {
+  margin: 0.57em 0px 0.57em 20px;
+}
+.header .user .first {
+  text-shadow: 1px 1px 1px;
+}
+@media (max-width: 800), (min-width: 500px) {
+  .menu {
+    float: left;
+    margin: 0px 0px 0px 5%;
+    padding: 10px 20px;
+    position: relative;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: #8e44ad;
+  }
+  .menu li a span {
+    display: none;
+  }
+}
+@media (max-width: 1366), (min-width: 801px) {
+  .menu {
+    float: right;
+    margin: 0px 0px 0px 5%;
+    padding: 10px 0px;
+  }
+  .menu li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+  .menu li a {
+    position: relative;
+    color: #dd4f24;
+    text-decoration: none;
+  }
+  .menu li a span {
+    display: block;
+    position: absolute;
+    border-bottom: 3px solid #fff;
+    right: 3px;
+    left: 3px;
+    bottom: -10px;
+    top: 0px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
+  }
+  .menu li a span:hover {
+    bottom: -1px;
+    left: -3px;
+    right: -3px;
+    opacity: 1;
+  }
+  .menu .backG {
+    position: absolute;
+    background-color: #3498db;
+  }
+}
