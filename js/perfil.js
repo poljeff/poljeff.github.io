@@ -48,6 +48,7 @@ $(document).ready(function() {
 	};
 	preload();
 
+
 	$("#select").click(function() {
 			// alert('dsd');
 			$("#menuId li").slideToggle('fast');
@@ -146,4 +147,5 @@ $scrollTopLink = $('footer');
 $scrollTopLink.on('click', function() {
 	$( 'html, body' ).animate({scrollTop:0}, 1000);
 	return false;
+
 } );

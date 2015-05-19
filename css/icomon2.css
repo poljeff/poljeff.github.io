@@ -5,6 +5,7 @@
 		url('../fonts/ic2/icomoon.woff?-mgb97x') format('woff'),
 		url('../fonts/ic2/icomoon.ttf?-mgb97x') format('truetype'),
 		url('../fonts/ic2/icomoon.svg?-mgb97x#icomoon') format('svg');
+
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +24,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
 .icon-apple:before {
 	content: "\f179";
 }
@@ -254,12 +256,141 @@
 
 .icon-radio-unchecked:before {
 	content: "\ea56";
+=======
+.icon-facebook:before {
+	content: "\e600";
+}
+
+.icon-twitter-old:before {
+	content: "\e601";
+}
+
+.icon-heart:before {
+	content: "\e676";
+}
+
+.icon-contract:before {
+	content: "\e697";
+}
+
+.icon-enlarge:before {
+	content: "\e698";
+}
+
+.icon-tag4:before {
+	content: "\e847";
+}
+
+.icon-calendar6:before {
+	content: "\e84d";
+}
+
+.icon-calendar7:before {
+	content: "\e84e";
+}
+
+.icon-phone6:before {
+	content: "\e854";
+}
+
+.icon-window3:before {
+	content: "\e856";
+}
+
+.icon-monitor3:before {
+	content: "\e857";
+}
+
+.icon-soccer:before {
+	content: "\e8b6";
+}
+
+.icon-layout5:before {
+	content: "\e8fd";
+}
+
+.icon-layout7:before {
+	content: "\e8ff";
+}
+
+.icon-music4:before {
+	content: "\eb30";
+}
+
+.icon-heart6:before {
+	content: "\eb35";
+}
+
+.icon-bike:before {
+	content: "\eb41";
+}
+
+.icon-broadcast3:before {
+	content: "\f048";
+}
+
+.icon-calendar3:before {
+	content: "\f068";
+}
+
+.icon-clock4:before {
+	content: "\f046";
+}
+
+.icon-eye3:before {
+	content: "\f04e";
+}
+
+.icon-gear:before {
+	content: "\f02f";
+}
+
+.icon-heart3:before {
+	content: "\2665";
+}
+
+.icon-logo-github:before {
+	content: "\f092";
+}
+
+.icon-checkmark2:before {
+	content: "\e805";
+}
+
+.icon-cancel:before {
+	content: "\e806";
+}
+
+.icon-code2:before {
+	content: "\e830";
+}
+
+.icon-google-plus:before {
+	content: "\ea88";
+}
+
+.icon-facebook3:before {
+	content: "\ea8c";
+}
+
+.icon-twitter2:before {
+	content: "\ea91";
+}
+
+.icon-youtube3:before {
+	content: "\ea99";
+}
+
+.icon-github5:before {
+	content: "\eab5";
+>>>>>>> origin/master
 }
 
 .icon-tux:before {
 	content: "\eabe";
 }
 
+<<<<<<< HEAD
 .icon-group-work:before {
 	content: "\e60f";
 }
@@ -438,5 +569,65 @@
 
 .icon-twitter-with-circle:before {
 	content: "\e63c";
+=======
+.icon-html5:before {
+	content: "\eadf";
+}
+
+.icon-html52:before {
+	content: "\eae0";
+}
+
+.icon-css3:before {
+	content: "\eae1";
+}
+
+.icon-git:before {
+	content: "\eae2";
+}
+
+.icon-twitter-square:before {
+	content: "\f127";
+}
+
+.icon-facebook-square:before {
+	content: "\f128";
+}
+
+.icon-github-square:before {
+	content: "\f137";
+}
+
+.icon-google-plus-square:before {
+	content: "\f169";
+}
+
+.icon-gamepad4:before {
+	content: "\f1aa";
+}
+
+.icon-html53:before {
+	content: "\f1c8";
+}
+
+.icon-css32:before {
+	content: "\f1c9";
+}
+
+.icon-youtube-square:before {
+	content: "\f1f0";
+}
+
+.icon-bank:before {
+	content: "\f223";
+}
+
+.icon-institution:before {
+	content: "\f223";
+}
+
+.icon-university:before {
+	content: "\f223";
+>>>>>>> origin/master
 }
 

@@ -9,6 +9,7 @@
 		-vendor-animation-delay: 2s;
 		-vendor-animation-iteration-count: infinite;*/
 	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -16,10 +17,12 @@
 		box-sizing: inherit;
 	}
 
+
 	/*cargador*/
 	body{
 		overflow: hidden;
 		background-color: #F0F0F1;
+
 	}
 	#loader{
 		width: 100%;
@@ -32,6 +35,7 @@
 	}
 	
 	.no-visto{display: none;}
+
 	#status {
 		width: 200px;
 		height: 200px;
@@ -46,6 +50,7 @@
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		-webkit-animation-iteration-count: infinite;
+
 	}
 	
 	.ball {
@@ -61,6 +66,7 @@
 		margin-left: -10px;
 	}
 	/*#red {
+
 		background: #e7524e;
 		-webkit-border-radius: 20px;
 		-webkit-animation: firstcolor 1.05s ease-in-out infinite;
@@ -102,6 +108,7 @@
 		}
 		/*-----Animations----*/
 	/*@-moz-keyframes firstcolor {
+
 		0% {
 			z-index: 1;
 		}
@@ -996,10 +1003,6 @@
 			}
 
 		}
-
-
-
-
 
 
 
